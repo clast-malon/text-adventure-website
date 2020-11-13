@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&family=Poppins&family=Press+Start+2P&display=block');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/background-code2.png");
+}
+
+h1 {
+    text-align: center;
+    border: black;
+    border-style: solid;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    background-color: rgba(255,255,255,0.4);
+}
+
+.centre {
+    text-align: center;
+}
+
+.left-image {
+    padding: 10px 10px 10px 0px;
+}
+
+.right-image {
+    padding: 10px 0px 10px 10px;
+}
+
+.goldman-font {
+    font-family: 'Goldman', cursive;
+}
+
+.poppins-font {
+    font-family: 'Poppins', sans-serif;
+}
+
+.red-text {
+    color: red
+}
+
+.box {
+    color:white;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    padding:0px;
+    flex: 1;
+    border: solid;
+    border-width: 1px;
+}
+
+.box1 { background:#b8ae23;}
+.box2 { background:#3d7921;}
+.box3 { background:#5c50ff;}
+.box4 { background:#ff4757;}
+
+.container {
+    display: flex;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.imgsize {
+    max-width: 800px;
+    max-height: 400px;
+}
+
+.img30 {
+    width: 30%;
+}
+
+#gbcustom {
+    height: 400px;
+    width: 800px;
+}
+
+#dreamcustom {
+    height: 400px;
+    width: 600px;
+}
+
+a:hover {
+    background-color: black;
+}
+
+#room237custom {
+    height: 400px;
+    width: 600px;
+}
+
+#doomsdaycustom {
+    height: 350px;
+    width: 500px;
+}
+
+#raiderscustom {
+    height: 400px;
+    width: 600px;
+}
