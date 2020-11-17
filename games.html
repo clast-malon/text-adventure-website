@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="main.css">
     <title>Games</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
 </head>
 <body>
-    <div class = "container">
+    <div id = "top" class = "container">
         <a class = "box box1" href = "index.html" >
             <p>Home</p>
         </a>
-        <a class = "box box2" href = "games.html" >
+        <a class = "box box2" href = "games-1.html" >
             <p>Completed Games</p>
         </a>
         <a class = "box box3" href = "futureprojects.html" >
@@ -20,11 +21,25 @@
             <p>About Me</p>
         </a>     
     </div>
+    <div class = "fixed red-text">
+        <label for="game">Jump to game:</label>
+        <select name="Choose a Game:" onchange="location = this.value;">
+            <option value="#top" selected>CLICK HERE</option>
+            <option value="#top">Top (Latest Game)</option>
+            <option value="#2024">2024</option>
+            <option value="#raiderscustom">Castle Raiders</option>
+            <option value="#cops">Cops</option>
+            <option value="#doomsdaycustom">Doomsday Party</option>
+            <option value="#dreamcustom">Dream Catcher</option>
+            <option value="#gbcustom">Ghoul Busters</option>
+            <option value="#room237custom">Room 237</option>
+        </select>
+    </div>
     <br>
     <div class = "goldman-font">
         <h1>Completed Games</h1>
         <p class = "red-text centre">NOT ALL OF THESE GAMES ARE CREATED BY MYSELF - ORIGINAL CREATORS ARE ALL CREDITED AND ONLY POSTED WITH THEIR PERMISSION. ANY DETAILS OMITTED HAVE BEEN DONE SO AT THE PERSON'S REQUEST</p>
-        <img src = "images/2024_gametitle.png" class = "right-image imgsize" align = "right" alt = 'Picture of title screen, says "snake_case presents 2024"'>
+        <img id = "2024" src = "images/2024_gametitle.png" class = "right-image imgsize" align = "right" alt = 'Picture of title screen, says "snake_case presents 2024"'>
         <h2>2024</h2>
         <p>Date Completed: 4/11/2020</p>
         <p>by Stuart Clague, Ellie Robson and Ciaran Andrews</p>
@@ -74,7 +89,7 @@
             <a href = "ghoul-busters.html" target = "_blank" >CLICK HERE TO PLAY</a>
         </h3>
         <br><br>
-        <img src = "images/cops.PNG" class = "left-image" align = "left" alt = 'ASCI Art of a police car, licence plate says "Uranus 1"'>
+        <img id = cops src = "images/cops.PNG" class = "left-image" align = "left" alt = 'ASCI Art of a police car, licence plate says "Uranus 1"'>
         <div class = "text-right">
             <h2>Cops</h2>
             <p>Date Completed: 4/11/2020</p>
@@ -95,7 +110,7 @@
         <img id = "room237custom" src = "images/room237.PNG" class = "right-image" align = "right" alt = 'Picture of castle, below says "Welcome to Coderunners Room 237 - Enjoy!"'>
         <h2>Room 237</h2>
         <p>Date Completed: 4/11/2020</p>
-        <p>by Antitha, Daniel, Rich and James</p>
+        <p>by Anitha, Daniel, Rich and James</p>
         <h3>About the Game</h3>
         <p>
             A haunted house with a twist! See how far you can get, you must go from room to room encountering a different threat in each. Reach "Room 237" to win.
