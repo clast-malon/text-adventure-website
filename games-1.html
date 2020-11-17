@@ -7,7 +7,7 @@
     <link rel="shortcut icon" type="image/png" href="favicon.png"/>
 </head>
 <body>
-    <div class = "container">
+    <div id = "top" class = "container">
         <a class = "box box1" href = "index.html" >
             <p>Home</p>
         </a>
@@ -21,10 +21,10 @@
             <p>About Me</p>
         </a>     
     </div>
-    
     <div class = "fixed red-text">
-        <label for="game">Choose a Game:</label>
-        <select name="Choose a Game:" onchange="location = this.value;">
+        <label for="game">Jump to game:</label>
+        <select name="Choose a Game:" selected = "Top of page" onchange="location = this.value;">
+            <option value="#top">Top of page</option>
             <option value="#2024">2024</option>
             <option value="#raiderscustom">Castle Raiders</option>
             <option value="#cops">Cops</option>

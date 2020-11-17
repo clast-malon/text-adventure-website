@@ -106,6 +106,7 @@ a:hover {
 
 .fixed {
     position: fixed;
+    bottom: 0;
     border: black;
     border-style: solid;
     padding: 10px;
